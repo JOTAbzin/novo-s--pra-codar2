@@ -1,0 +1,159 @@
+section.h1{
+    margin: 40px;
+    padding: 10px;
+    text-align: center;
+    margin-top: -5px;
+    
+}
+div.fotos{
+    margin-top: 50px;
+}
+
+section.h1 .h{
+    margin-left: 5px;
+    border-radius: 30px;
+    width: 1300px;
+    height: 75px;
+    transition: width 1s, height 1s;
+    background-color: blue;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+}
+section.h1 .h:hover{
+    box-shadow: 3rem 3rem 5rem black;
+    width: 1320px;
+    height: 85px;
+}
+
+.fotinha{
+    padding: 10px 5px 20px;
+    margin-top: -40px;
+    padding-left: 135px;
+}
+
+#foto{
+    width: 350px;
+    height: 350px;
+    border: solid 5px blue;
+    border-radius: 1000px;
+    margin-left: 375px;
+    transition: width 1s, height 1s;
+}
+
+#foto:hover{
+    box-shadow: 0rem 1rem 2rem black;
+    width: 370px;
+    height: 370px;
+}
+div#mfoto{
+    border-top: 10px;
+    display: flexbox;
+    padding-top: 40px;
+    margin-top: 100px;
+    margin-left: -10px;
+}
+
+div.gallery {
+    padding: -1px 1px 1px;
+    margin-top: 200px;
+    margin: 35px;
+    border-top: 10px;
+    border: 3px solid blue;
+    float: left;
+    width: 250px;
+    height: 320px;
+    transition: width 800ms, heigth 800ms;
+    border-radius: 50px;
+  }
+  
+  div.gallery:hover {
+    box-shadow: 1rem 1rem 1rem black;
+    border: 4px solid blue;
+    width: 270px ;
+    height: 340px ;
+  }
+  
+  div.gallery img {
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+  }
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+div.tudo .tudinho{
+    background: blue;
+    display: block;
+    padding: 10px 40px 10px;
+}
+div.tudo .tudinho .info{
+    background: blue;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr) ;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    gap: 4rem;
+}
+div.tudo .info  {
+    background: blue;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    display: grid;
+    
+}
+
+div.tudo h1{
+    
+    justify-content: space-evenly;
+    align-items: center;
+    width: 195px;
+    color: white;
+}
+div.tudo .h1 h1 {
+    text-align: center;
+    background: blue;
+    border: solid 10px blue;
+    align-content: center;
+    align-items: center;
+    margin: 545px;
+    margin-top: -5px;
+    padding: 3px 5px 3px;
+    box-shadow: 1rem 1rem 3rem black;
+}
+
+div.oito{
+    
+    background: blue;
+    align-items: center;
+    display:flex;
+}
+
+div.tudo .tudinho .oito{
+    text-align: center;
+    margin-top: -370px;
+    margin-left: 1px;
+    border-radius: 30px;
+    width: 355px;
+    height: 535px;
+    background: white;
+    text-align: center;
+    justify-items:center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    transition: width 900ms, height 900ms;
+}
+
+div.tudo .tudinho .oito:hover{
+   box-shadow: 1rem 1rem 3rem black;
+   width: 360px;
+   height: 565px;
+}
